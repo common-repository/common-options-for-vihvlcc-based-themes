@@ -1,0 +1,46 @@
+Tests for vihv lcc 2 
+====================
+
+ - Basic TControl features
+ +- creation of control 
+ -- onCreateEvent
+ +- onGetEvent
+ +- onPostEvent
+ +- passing Data to output
+ +- get Data as Xml
+ +- get Data as Html
+ - ACL features
+ -- Deny control event and catch the exception
+ -- XmlAcl
+ - authorization
+ -- AuthorizationManager
+ - basic Container features
+ +- addChild
+ -- get data as xml (including child data)
+ - Debug
+ -- DebugControl
+ -- DebugControlConfig
+ - model mapping
+ -- XmlModelConfig
+ - exceptions
+ -- ExceptionControl
+ - db
+ -- sql db
+ --- TMysql
+ --- TMysqli
+ -- keyValue db
+ --- SqlKeyValue
+ --- BerkeleyKeyValue (new)
+ --- FileBank
+ 
+interational
+ - test if all classes have namespace 'vihv' (all php files contain phrase 'namespace vihv;')
+ - test if there are no T prefix any more
+ - test if projects, utils and examples are separated from core lib
+ - test if there are no classes without unit tests
+
+
+
+ 
+
+ 

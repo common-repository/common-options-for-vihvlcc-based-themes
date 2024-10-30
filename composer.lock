@@ -1,0 +1,30 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "355ec63ecf8a2f038aa1fe18ecc937ef",
+    "content-hash": "d654175b13f3ac5c2d57c489b4a42aa9",
+    "packages": [
+        {
+            "name": "vihv/vihv",
+            "version": "3.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://me/lcc.vihv/downloads/vihv-latest.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

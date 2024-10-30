@@ -1,0 +1,22 @@
+{
+    "type":"project",
+    "repositories": [
+	{
+	    "type": "package",
+	    "package": {
+                "name": "vihv/vihv",
+                "version": "3.0.1",
+                "dist": {
+                    "url": "http://lcc.vihv.org/downloads/vihv-latest.zip",
+                    "type": "zip"
+                }
+            }
+	}
+    ],
+    "require":{
+	"vihv/vihv":"3.0.1"
+    },
+    "config": {
+        "secure-http": false
+    }
+}

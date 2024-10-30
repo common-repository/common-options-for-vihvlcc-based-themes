@@ -1,0 +1,64 @@
+.vihvlccplugin {
+
+}
+.vihvlccplugin__title {}
+.vihvlccplugin__header-message {}
+.vihvlccplugin__options-container {
+    padding-top: 10px;
+}
+.vihvlccplugin__options-form {}
+.vihvlccplugin__option-container {
+    padding: 1em 0;
+}
+.vihvlccplugin__input__checkbox {}
+.vihvlccplugin__label {}
+.vihvlccplugin__option-container {
+    
+}
+.vihvlccplugin__option-container__enable-debugger {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 30px;
+    padding: 10px;
+}
+.vihvlccplugin__option-title {
+    margin-top: 0;
+}
+.vihvlccplugin__radio-container {
+    line-height: 0;
+}
+input[type='radio'].vihvlccplugin__input__radio {
+    position: relative;
+    top: -20px;
+}
+.vihvlccplugin__position {
+    display: inline-block;
+    height: 50px;
+    width: 60px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: relative;
+}
+.vihvlccplugin__position:after {
+    content: ' ';
+    position: absolute;
+    height: 5px;
+    width: 10px;
+    background: #f00;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+}
+.vihvlccplugin__position__bottom-right:after {
+    right: 5px;
+    bottom: 0;
+}
+.vihvlccplugin__position__bottom-left:after {
+    right: auto;
+    left: 5px;
+    bottom: 0;
+}
+.vihvlccplugin__clear {
+    clear: both;
+}

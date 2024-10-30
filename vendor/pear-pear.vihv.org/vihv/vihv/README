@@ -1,0 +1,22 @@
+<?php
+
+/**
+this folder containts Vigorous Hive components for PHP
+@author Yuriy Ohonin http://lcc.vihv.org
+
+Some Rules:
+
+Notation: CamelCase, (Delphi style)
+	methods starts with lowercase letter like getValue()
+	variables - should be no public variables, all covered with getters and setters
+
+One class - one file (NetBeans like), File name should be the same as class name
+No global variables
+No functions - all should be inside classes
+
+Namespaces - no namespace but should add it as far as php 3.5 will be commonly used, after what all classes should be inside "vihv" namespace like \vihv\Sample()
+
+@requires
+PHP 5.3
+
+*/

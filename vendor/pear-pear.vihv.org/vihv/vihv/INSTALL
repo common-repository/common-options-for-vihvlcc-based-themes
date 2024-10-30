@@ -1,0 +1,13 @@
+FOR DUMMIES
+
+move all 'vihv' folder to php include path, most likely it is '/usr/share/php'
+
+INSTALLATION
+folder 'vihv' should be in php include path
+
+1) you can copy it defalut php include path, or
+2) you can copy it anywhere you want and add vihv location to php include path in 3 ways
+	- set include_path in php.ini
+	- set include_path for in httpd configuration (useful for virtual hosts)
+	- set include_path in your php code like this ini_set("include_path",ini_get("include_path").":/path/to/folder/that/contain/vihvFolder");
+3) you can copy vihv folder to your document root
